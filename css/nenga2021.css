@@ -1,5 +1,6 @@
 .main{
-  
+  background-image: url(../image/bg_red.jpg);
+  padding: 40px;
 }
 .w100{
   width: 100%;
