@@ -1,7 +1,24 @@
 .main{
   background-image: url(../image/bg_red.jpg);
-  padding: 40px;
+}
+.main_title{
+  font-family: "Hannari";  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  text-shadow: 1px 1px 7px #333;
+  font-size: 3rem;
+  color: #D68E31;
+}
+.ussi{
+  width: 15%;
+}
+.usi_title{
+  width: 15%;
 }
 .w100{
   width: 100%;
+}
+.vue_kakizome{
+  background-image: url(../image/1717324.jpg);
+
 }
