@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/nenga2021.css">
   <link rel="stylesheet" href="css/reset.css">
-  <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+
   <title>2021</title>
 </head>
 <body>
@@ -17,10 +19,16 @@
     <div>
       <img src="image/ussi.png" alt="" class="ussi">
     </div>
-    <div class="vue_kakizome w100"></div>
+    <div id="app" class="vue_kakizome w100">
+      <input v-model="myName">
+      <p>{{ myName }}</p>
+    </div>
   </div>
   <footer>
-    <img src="image/ushihappy-removebg-preview.png" alt="" class="w100">
+    <img src="image/ushihappy.png" alt="" class="w100">
   </footer>
+
+  <script src="js/vue.js"></script>
+
 </body>
 </html>

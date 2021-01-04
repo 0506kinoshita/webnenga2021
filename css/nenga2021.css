@@ -1,5 +1,7 @@
 .main{
   background-image: url(../image/bg_red.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .main_title{
   font-family: "Hannari";  font-weight: bold;
