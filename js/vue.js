@@ -4,4 +4,3 @@ new Vue({
     myName:''
   }
 })
-
